@@ -41,7 +41,6 @@ function App() {
     <div className="App">
       <header className="App-header" style={{backgroundColor: accentColor, color: accentColor}}>
         <div id='quote-box'>
-          <h1>Random Number: {randomNumber}</h1>
           <p id='text'>
             {quote}
           </p>
@@ -53,7 +52,7 @@ function App() {
               <FontAwesomeIcon icon={faTwitter} />
             </a>
             <button id='new-quote' onClick={getRandomQuote}>
-              Generate A Random Quote
+              Gimme Random Quote
             </button> 
           </div>
         </div>
